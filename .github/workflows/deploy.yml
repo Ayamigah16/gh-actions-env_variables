@@ -10,6 +10,7 @@ env:
 
 jobs:
   test:
+    environment: Test-Workflow
     env:
       MONGODB_CLUSTER_ADDRESS: gh-actions.wcrxq.mongodb.net
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
